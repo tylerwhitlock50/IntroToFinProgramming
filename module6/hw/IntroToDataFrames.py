@@ -16,7 +16,8 @@ import pandas as pd
 
 
 # Define the varibles needed for the assignment
-maturities = ['GS6M', 'GS1', 'GS5', 'GS10']
+maturities = ['DTB6', 'DTB1YR', 'DGS5', 'DGS10'] #daily data set
+#maturities = ['GS6M', 'GS1', 'GS5', 'GS10'] #monthly Maturities
 columns = ['6-Month', '1-Year', '5-Year', '10-Year']
 start, end =  date.datetime(2014, 2, 1), date.datetime(2016, 2, 1)
 
@@ -35,5 +36,6 @@ filtered_df = (df[(df < (stats.loc['mean'] - stats.loc['std']))
 
 # Step 5 (Svae to Excel)
 filtered_df.to_excel('sigma.xlsx')
+print(filtered_df)
 
 
