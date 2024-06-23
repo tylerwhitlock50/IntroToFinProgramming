@@ -15,8 +15,10 @@ import pandas as pd
 #Please upload this filled file and sigma.xlsx
 
 
+
+maturities = ["DGS10", "DGS5", "DGS1", "DGS6MO"]
 # Define the varibles needed for the assignment
-maturities = ['DTB6', 'DTB1YR', 'DGS5', 'DGS10'] #daily data set
+#maturities = ['DTB6', 'DTB1YR', 'DGS5', 'DGS10'] #daily data set
 #maturities = ['GS6M', 'GS1', 'GS5', 'GS10'] #monthly Maturities
 columns = ['6-Month', '1-Year', '5-Year', '10-Year']
 start, end =  date.datetime(2014, 2, 1), date.datetime(2016, 2, 1)

@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+pandas_datareader
+setuptools
+yfinance
+seaborn
+openpyxl
