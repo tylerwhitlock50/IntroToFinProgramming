@@ -6,3 +6,4 @@ setuptools
 yfinance
 seaborn
 openpyxl
+scikit-learn
