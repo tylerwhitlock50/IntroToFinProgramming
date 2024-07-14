@@ -65,3 +65,12 @@ print(classification_report(ytest,model.predict(xtest)))
 
 #print resuls using printOutCoefficients method to excel and run 5 different rows through the model in excel
 printOutTheCoefficients(final.columns,model.coef_,model.intercept_)
+
+items_to_test = final.iloc[0:5]
+#items_to_test.to_excel("itemsToTest.xlsx")
+
+#run the model on the test set
+print(model.intercept_)
+print(model.predict(items_to_test))
+print(model.predict_proba(items_to_test))
+
