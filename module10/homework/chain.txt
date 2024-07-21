@@ -1,0 +1,12 @@
+[
+    {
+        "index": 0,
+        "previous_hash": "0",
+        "timestamp": 1721589856.4619014,
+        "transactions": [
+            "Genesis Block"
+        ],
+        "nonce": 0,
+        "hash": "30d3ae966c31fb6790f49c1c2e7e1ba450bed481e678d13347bf784033f8f352"
+    }
+]
